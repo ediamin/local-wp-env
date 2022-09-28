@@ -1,0 +1,23 @@
+{
+	"files.exclude": {
+		"**/build": true,
+		"**/build-types": true,
+		"**/node_modules": true,
+		"**/vendor": true,
+		"**/tsconfig.tsbuildinfo": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/dist": true,
+		"**/build": true,
+		"**/build-types": true,
+		"**/tsconfig.tsbuildinfo": true
+	},
+	"editor.wordWrap": "off",
+	"phpcs.enable": true,
+	"phpcs.standard": "./.phpcs.xml.dist",
+	"phpcs.autoConfigSearch": false,
+	"phpcs.lintOnOpen": false,
+	"phpcs.lintOnSave": true,
+	"phpcs.lintOnType": false
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@ediamin/local-wp-env",
+  "version": "1.0.0",
+  "description": "Local dev setup for WordPress using wp-env",
+  "scripts": {
+    "env:start": "wp-env-x start --xdebug",
+    "env:stop": "wp-env-x stop",
+    "wp:download" : "wp core download --path=wp-core"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@ediamin/env": "ediamin/wp-env"
+  }
+}

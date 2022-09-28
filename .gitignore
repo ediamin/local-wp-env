@@ -1,0 +1,19 @@
+# Operating system related
+.DS_Store
+Thumbs.db
+
+# IDE/Code Editor.
+# .vscode
+
+# Dev environment
+node_modules
+vendor
+wp-core
+dist
+.wp-env.override.json
+phpcs-report.txt
+
+# TypeScript
+build
+build-types
+tsconfig.tsbuildinfo
